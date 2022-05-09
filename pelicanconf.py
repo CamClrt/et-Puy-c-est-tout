@@ -31,5 +31,7 @@ DEFAULT_PAGINATION = 5
 
 RELATIVE_URLS = True
 
+THEME = 'themes/attila'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
