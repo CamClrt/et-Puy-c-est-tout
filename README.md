@@ -7,14 +7,14 @@
 ````
 # To launch in local
 
-$ pelican content
-$ pelican --listen
+pelican content
+pelican --listen
 ````
 
 ```
 # To publish on GitHub Pages
 
-$ pelican content -o output -s pelicanconf.py
-$ ghp-import output
-$ git push origin gh-pages
+pelican content -o output -s pelicanconf.py
+ghp-import output
+git push origin gh-pages
 ```
