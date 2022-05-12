@@ -31,7 +31,9 @@ DEFAULT_PAGINATION = 5
 
 RELATIVE_URLS = True
 
-THEME = 'themes/attila'
+THEME = 'themes/pelican-clean-blog'
+
+# HOME_COVER = '/assets/images/blog_cover.png'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
