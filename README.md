@@ -1,6 +1,8 @@
+![](https://github.com/CamClrt/et-Puy-c-est-tout/blob/main/content/assets/images/blog_cover.jpg "Blog cover")
+
 # Le blog
 
-[et Puy c'est tout !](https://camclrt.github.io/et-Puy-c-est-tout/ "et Puy c'est tout !")
+Le lien : [et Puy c'est tout !](https://camclrt.github.io/et-Puy-c-est-tout/ "et Puy c'est tout !")
 
 ## CMD utiles
 
