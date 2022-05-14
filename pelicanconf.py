@@ -37,3 +37,5 @@ HEADER_COVER = '/assets/images/blog_cover.png'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+INDEX_SAVE_AS = 'blog.html'
