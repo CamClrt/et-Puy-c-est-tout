@@ -1,10 +1,12 @@
 import os
 
 AUTHOR = 'Camille Clarret'
-SITENAME = "Et Puy c'est tout !"
+SITENAME = ''
 SITEURL = ''
 
 PATH = 'content'
+
+URL_PREFIX = 'et-Puy-c-est-tout/' if os.environ.get("DEPLOYED") else ""
 
 TIMEZONE = 'Europe/Paris'
 
@@ -35,7 +37,7 @@ THEME = 'themes/attila'
 
 STATIC_PATHS = ['assets']
 
-HEADER_COVER = '/assets/images/blog_cover.png'
+HEADER_COVER = '/assets/images/blog_cover.jpg'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -45,14 +47,10 @@ INDEX_SAVE_AS = 'blog.html'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
-# MENUITEMS = ()
-
 DISPLAY_PAGES_ON_MENU = False
-
-URL_PREFIX = 'et-Puy-c-est-tout/' if os.environ.get("DEPLOYED") else ""
 
 MENUITEMS = [
     ('Home', f'{URL_PREFIX}index.html'),
-    ('Article', f'{URL_PREFIX}blog.html'),
-    ('Mail', 'mailto:camille.clarret@gmail.com'),
+    ('Articles', f'{URL_PREFIX}blog.html'),
+    ('Contact', 'mailto:camille.clarret@gmail.com'),
 ]
