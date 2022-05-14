@@ -36,10 +36,12 @@
 
 
 
-    <meta name="description" content="Mon second article 🙂">
+    <meta name="description" content="2ème article">
 
-    <meta name="author" content="Camille Clarret">
+    <meta name="author" content="Cam">
 
+    <meta name="tags" content="tag1">
+    <meta name="tags" content="tag2">
 
 
 
@@ -47,14 +49,16 @@
 <!-- Open Graph -->
 <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content=""/>
 <meta prefix="og: http://ogp.me/ns#" property="og:title" content="My Second Article"/>
-<meta prefix="og: http://ogp.me/ns#" property="og:description" content="Mon second article 🙂"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="2ème article"/>
 <meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US"/>
 <meta prefix="og: http://ogp.me/ns#" property="og:url" content="./my-second-article.html"/>
 <meta prefix="og: http://ogp.me/ns#" property="og:type" content="article"/>
 <meta prefix="og: http://ogp.me/ns#" property="article:published_time" content="2022-05-14 12:00:00+02:00"/>
-<meta prefix="og: http://ogp.me/ns#" property="article:modified_time" content=""/>
-<meta prefix="og: http://ogp.me/ns#" property="article:author" content="./author/camille-clarret.html">
+<meta prefix="og: http://ogp.me/ns#" property="article:modified_time" content="2022-05-14 15:00:00+02:00"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:author" content="./author/cam.html">
 <meta prefix="og: http://ogp.me/ns#" property="article:section" content="Pingu"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="tag1"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="tag2"/>
 <meta prefix="og: http://ogp.me/ns#" property="og:image" content=".//assets/images/blog_cover.jpg">
 
 <!-- Twitter Card -->
@@ -66,15 +70,15 @@
   "name": "My Second Article",
   "headline": "My Second Article",
   "datePublished": "2022-05-14 12:00:00+02:00",
-  "dateModified": "",
+  "dateModified": "2022-05-14 15:00:00+02:00",
   "author": {
     "@type": "Person",
-    "name": "Camille Clarret",
-    "url": "./author/camille-clarret.html"
+    "name": "Cam",
+    "url": "./author/cam.html"
   },
   "image": ".//assets/images/blog_cover.jpg",
   "url": "./my-second-article.html",
-  "description": "Mon second article 🙂"
+  "description": "2ème article"
 }
 </script>
 </head>
@@ -90,6 +94,8 @@
           <li><a href="blog.html" role="presentation">Articles</a></li>
           <li><a href="mailto:camille.clarret@gmail.com" role="presentation">Contact</a></li>
 
+                  <li role="presentation"><a href="./category/blog.html">Blog</a></li>
+                  <li class="nav-pingu active" role="presentation"><a href="./category/pingu.html">Pingu</a></li>
 
     </ul>
   </div>
@@ -114,10 +120,11 @@
         <h1 class="post-title">My Second Article</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
-                <a href="./author/camille-clarret.html">Camille Clarret</a>
+                <a href="./author/cam.html">Cam</a>
             | <time datetime="Sam 14 mai 2022">Sam 14 mai 2022</time>
         </span>
         <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Sam 14 mai 2022</span>
             <div class="post-cover cover" style="background-image: url('.//assets/images/blog_cover.jpg')">
       </div>
     </header>
@@ -147,6 +154,8 @@
                     <div class="clear"></div>
                 </div>
 
+                <aside class="post-tags">
+<a href="./tag/tag1.html">tag1</a><a href="./tag/tag2.html">tag2</a>                </aside>
 
                 <div class="clear"></div>
 
