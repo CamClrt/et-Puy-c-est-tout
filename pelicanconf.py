@@ -29,11 +29,11 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 5
 
-RELATIVE_URLS = True
+THEME = 'themes/attila'
 
-THEME = 'themes/pelican-clean-blog'
+STATIC_PATHS = ['assets']
 
-# HOME_COVER = '/assets/images/blog_cover.png'
+HEADER_COVER = '/assets/images/blog_cover.png'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
