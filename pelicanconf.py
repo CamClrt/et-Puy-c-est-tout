@@ -39,3 +39,16 @@ HEADER_COVER = '/assets/images/blog_cover.png'
 RELATIVE_URLS = True
 
 INDEX_SAVE_AS = 'blog.html'
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+
+# MENUITEMS = ()
+
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = [
+    ('Home', '/index.html'),
+    ('Article', '/blog.html'),
+    ('Mail', 'mailto:camille.clarret@gmail.com'),
+]
