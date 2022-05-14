@@ -1,3 +1,5 @@
+import os
+
 AUTHOR = 'Camille Clarret'
 SITENAME = "Et Puy c'est tout !"
 SITEURL = ''
@@ -47,8 +49,10 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 DISPLAY_PAGES_ON_MENU = False
 
+URL_PREFIX = 'et-Puy-c-est-tout/' if os.environ.get("DEPLOYED") else ""
+
 MENUITEMS = [
-    ('Home', '/index.html'),
-    ('Article', '/blog.html'),
+    ('Home', f'{URL_PREFIX}index.html'),
+    ('Article', f'{URL_PREFIX}blog.html'),
     ('Mail', 'mailto:camille.clarret@gmail.com'),
 ]
