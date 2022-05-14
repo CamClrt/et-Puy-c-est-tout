@@ -52,5 +52,5 @@ MENUITEMS = [
     ('Home', f'{URL_PREFIX}index.html'),
     ('Articles', f'{URL_PREFIX}blog.html'),
     ('Mes adresses', 'https://goo.gl/maps/yBFkPCwFTzi6P45j6'),
-    ('Contact', 'mailto:camille.clarret@gmail.com'),
+    ('Contactez-moi', 'mailto:camille.clarret@gmail.com'),
 ]
