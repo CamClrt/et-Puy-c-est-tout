@@ -18,5 +18,7 @@ pelican --listen
 
 pelican content -o output -s pelicanconf.py
 ghp-import output
+git checkout gh-pages
+echo www.et-puy-c-est-tout.fr > CNAME && git add CNAME
 git push origin gh-pages
 ```
