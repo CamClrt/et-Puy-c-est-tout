@@ -2,7 +2,7 @@
 
 # Le blog
 
-Le lien : [et Puy c'est tout !](https://camclrt.github.io/et-Puy-c-est-tout/ "et Puy c'est tout !")
+Le lien : [et Puy c'est tout !](https://www.et-puy-c-est-tout.fr "et Puy c'est tout !")
 
 ## CMD utiles
 
