@@ -1,6 +1,6 @@
 import os
 
-AUTHOR = 'Cam'
+AUTHOR = 'Camille'
 SITENAME = ''
 SITEURL = ''
 
@@ -13,7 +13,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -25,11 +25,8 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),)
 
-"""
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-"""
+SOCIAL = (('Instagram', 'https://www.instagram.com/et_puy_c_est_tout/'),)
 
 DEFAULT_PAGINATION = 5
 
@@ -52,5 +49,7 @@ MENUITEMS = [
     ('Home', f'{URL_PREFIX}index.html'),
     ('Articles', f'{URL_PREFIX}blog.html'),
     ('Mes adresses', 'https://goo.gl/maps/yBFkPCwFTzi6P45j6'),
-    ('Contactez-moi', 'mailto:camille.clarret@gmail.com'),
+    ('Instagram', 'https://www.instagram.com/et_puy_c_est_tout/'),
+    ('Mail', 'mailto:camille.clarret@gmail.com'),
+    ('RSS', 'feeds/all.atom.xml'),
 ]
