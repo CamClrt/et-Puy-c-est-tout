@@ -4,6 +4,13 @@
 
 Le lien : [et Puy c'est tout !](https://www.et-puy-c-est-tout.fr "et Puy c'est tout !")
 
+## Tech Stack
+
+* Python 3.9
+* Pelican 4.7
+* GitHub Pages
+* Love 💙
+
 ## CMD utiles
 
 ````
