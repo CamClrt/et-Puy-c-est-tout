@@ -2,7 +2,7 @@ import os
 
 AUTHOR = 'Camille'
 SITENAME = ''
-SITEURL = ''
+SITEURL = 'https://www.et-puy-c-est-tout.fr'
 
 PATH = 'content'
 
@@ -47,9 +47,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = [
     ('Home', f'{URL_PREFIX}index.html'),
+    ('About', f'{URL_PREFIX}about.html'),
+    ('Adresses', 'https://goo.gl/maps/yBFkPCwFTzi6P45j6'),
     ('Articles', f'{URL_PREFIX}blog.html'),
-    ('Mes adresses', 'https://goo.gl/maps/yBFkPCwFTzi6P45j6'),
-    ('Instagram', 'https://www.instagram.com/et_puy_c_est_tout/'),
-    ('Mail', 'mailto:camille.clarret@gmail.com'),
-    ('RSS', 'feeds/all.atom.xml'),
 ]
