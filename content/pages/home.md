@@ -8,6 +8,6 @@ save_as: index.html
 <div style="text-align: center; color: LightGray;">Clermont-Ferrand & alentours</div>
 
 
-Ici, je consigne les récits de mes pérégrinations clermontoises et de ses alentours ainsi que quelques notes pratiques.
+Ici, je consigne les récits de mes pérégrinations clermontoises et dans ses alentours ainsi que quelques notes pratiques.
 
 <div style="text-align: right;">Bonne lecture, Camille</div>
