@@ -48,6 +48,6 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [
     ('Home', f'{URL_PREFIX}index.html'),
     ('About', f'{URL_PREFIX}about.html'),
-    ('Adresses', 'https://goo.gl/maps/yBFkPCwFTzi6P45j6'),
+    ('Adresses', 'https://goo.gl/maps/9Df1Wgm2xKMovF6p9'),
     ('Articles', f'{URL_PREFIX}blog.html'),
 ]
